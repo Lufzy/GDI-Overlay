@@ -8,7 +8,7 @@
 
 
 ```csharp
-string ProcessName = "csgo";
+string ProcessName = "GDIOverlay";
 GDIOverlay.Initialize(ProcessName );
 GDIOverlay.Overlay.Paint += new PaintEventHandler(Drawing_Event);
 ```
@@ -30,7 +30,7 @@ private void Drawing_Event(object sender, PaintEventArgs e)
 }
 ```
 
-## Output / Çıktı
+## Example Output / Örnek Çıktı
 
 ![alt text](https://raw.githubusercontent.com/Lufzy/GDI-Overlay/main/example_output.PNG?raw=true)
 ## License
